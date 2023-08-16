@@ -1,0 +1,132 @@
+body{
+background: radial-gradient(circle at center bottom, #eeeeee 5%,transparent 6%, transparent 19%, #eeeeee 20%, #eeeeee 25%, transparent 26%, transparent 39%, #eeeeee 40%, #eeeeee 45%, transparent 46%), radial-gradient(circle at center top, #eeeeee 5%,transparent 6%, transparent 19%, #eeeeee 20%, #eeeeee 25%, transparent 26%,transparent 39%, #eeeeee 40%, #eeeeee 45%, transparent 46%), radial-gradient(circle at left,#eeeeee 5%, transparent 6%), radial-gradient(circle at right,#eeeeee 5%, transparent 6%);
+        background-size: 1em 1em;
+        background-color: #ffffff;
+        opacity: 1
+}
+
+
+#logsubmit {
+    background-color: yellow;
+    color: black;
+    
+}
+
+#logsubmit:hover{
+    background-color: #F95738;
+}
+
+#logmain{
+    background-color: #0D3B66;
+    border-radius: 15px;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* CSS for the Register */
+
+#mainreg{
+    background-color: #94C595;
+    border-radius: 15px;
+}
+
+#mainreg2{
+    background-color: #94C595;
+    border-radius: 15px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.card{
+	background-color: #94C595;
+    border-radius: 15px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* CSS for chat */
+.mainfield{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.left{
+    background-color: #0D3B66;
+    height: 500px;
+    width: 100px ;
+    border-radius: 15px;
+
+}
+
+.right{
+    background-color: #8c5e58;
+    width: 825px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.messageList{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    vertical-align: text-bottom;
+    overflow-y: auto;
+    border-radius: 15px;
+    
+}
+
+.messageList p{
+	margin: 5px;
+}
+
+#typeMessage{
+    margin: 10px;
+    width: 685px;
+    height: 50px;
+    display:inline-block;
+    
+}
+
+.form{
+	display: inline-block;
+}
+
+#sndBtn{
+    width: 100px;
+}
+
+.info{
+    text-align: right;
+    width: 925px;
+    margin: auto;
+}
+
+.h1text{
+    text-align: center;
+    font-family: 'Kavoon', cursive;
+    padding-top: 20px;
+}
+
+.h1text2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Kavoon', cursive;
+}
+
+.commChat{
+	color: white;
+	transform: rotate(-90deg);
+	margin: 10px;
+	margin-top: 200px;
+	font-size:50px;
+}
